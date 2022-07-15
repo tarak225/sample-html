@@ -1,0 +1,36 @@
+<!Doctpe>
+ <html>
+ <head>
+ <title>
+ registration form
+ </title>
+ </head>
+ <body bgcolor="lightskyblue"><br>
+
+ <label>firstname</label>
+ <input type="text"name="firstname"size="15"/><br><br>
+ <label>secondname</label>
+ <input type="text"name="middlename"size="15"/><br><br>
+ <label>lastname</label>
+ <input type="text"name="lastname"size="15"/><br><br>
+ <label>
+ course:
+ </label>
+ <select>
+ <option value="course">course</option>
+ <option value="mca">mca</option>
+ <option value="bca">bca</option>
+ <br>
+ <br>
+ <label>
+ Gender:
+ </label><br>
+ <input type="radio"name="male"/>male<br>
+ <input type="radio"name="female"/>female<br>
+ <br>
+ password:
+ <input type="password" id="pass"name="pass">
+ <br>
+ <input type="button"value="submit"/>
+</body>
+</html>
